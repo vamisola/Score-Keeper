@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Score Keeper</title>
+	<link rel="stylesheet" type="text/css" href="scoreKeeper.css">
+</head>
+<body>
+<div id="container">
+<h1 id="scoreKeeper">Score Keeper</h1>
+    <div class="scoreboard">
+        <h1 id="display">
+            <span id = "p1Display">0</span> to <span id = "p2Display"> 0</span>
+        </h1>
+    </div>
+    <div id="winnerShout">
+        Player <span id="wins"></span> Wins!
+    </div>
+    <br /><br />
+    <div class="clicknum">
+        <p>Playing to: <input id ="clickednum" type = "number"> Choose here</p>
+    </div>
+ 
+    <div class="clicknum">
+        <button id="p1">Player One</button>
+        <button id ="p2">Player Two</button>
+        <button id = "reset">Reset</button>
+    </div>
+
+</div>
+    
+<script type="text/javascript" src="scorekeeper.js"></script>
+</body>
+</html>
